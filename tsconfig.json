@@ -1,0 +1,11 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+  },
+  "include": [
+    "app/static/emu/*"
+  ],
+  "exclude": [
+  ]
+}

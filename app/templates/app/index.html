@@ -1,0 +1,13 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+    <div id="emu">
+    </div>
+{% endblock %}
+
+
+{% block scripts %}
+    {% load staticfiles %}
+    <script src="{% static 'emu/emu.js' %}"></script>
+{% endblock %}
+
